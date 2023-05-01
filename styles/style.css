@@ -90,7 +90,7 @@ header {
                     172,
                     200, 0.7), rgba(19,
                     172,
-                    200, 0.9)), url(../images/frigiliana20.jpg);
+                    200, 0.9)), url(../images/frigiliana20.png);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -177,6 +177,7 @@ main p {
 }
 
 footer {
+    
     color: white;
     background-image: linear-gradient(rgba(19,
                     172,
@@ -214,6 +215,11 @@ footer li {
 footer a {
     color: white;
     opacity: 0.7;
+}
+
+.content {
+    text-align: center;
+    padding-bottom: 50px;
 }
 
 @media (max-width: 960px) {
